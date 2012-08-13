@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F650BD515D0F5790025892F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F650BD415D0F5790025892F /* Icon.png */; };
+		7F650BD715D0F57D0025892F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F650BD615D0F57D0025892F /* Icon@2x.png */; };
 		7FDFFD6A15C6741A00F8A7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDFFD6915C6741A00F8A7C5 /* UIKit.framework */; };
 		7FDFFD6C15C6741A00F8A7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDFFD6B15C6741A00F8A7C5 /* Foundation.framework */; };
 		7FDFFD6E15C6741A00F8A7C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDFFD6D15C6741A00F8A7C5 /* CoreGraphics.framework */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F650BD415D0F5790025892F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7F650BD615D0F57D0025892F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		7FDFFD6515C6741A00F8A7C5 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDFFD6915C6741A00F8A7C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FDFFD6B15C6741A00F8A7C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +54,8 @@
 		7FDFFD5A15C6741A00F8A7C5 = {
 			isa = PBXGroup;
 			children = (
+				7F650BD615D0F57D0025892F /* Icon@2x.png */,
+				7F650BD415D0F5790025892F /* Icon.png */,
 				7FDFFD6F15C6741A00F8A7C5 /* Quiz */,
 				7FDFFD6815C6741A00F8A7C5 /* Frameworks */,
 				7FDFFD6615C6741A00F8A7C5 /* Products */,
@@ -152,6 +158,8 @@
 			files = (
 				7FDFFD7415C6741A00F8A7C5 /* InfoPlist.strings in Resources */,
 				7FDFFD8015C6741B00F8A7C5 /* QuizViewController.xib in Resources */,
+				7F650BD515D0F5790025892F /* Icon.png in Resources */,
+				7F650BD715D0F57D0025892F /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +288,7 @@
 				7FDFFD8515C6741B00F8A7C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
